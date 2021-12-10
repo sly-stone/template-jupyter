@@ -1,0 +1,8 @@
+isort
+black
+jupyterlab-code-formatter
+
+numpy
+pandas
+matplotlib
+seaborn
