@@ -1,4 +1,4 @@
-# Template Docker Environment for Data Science
+# Template Repository for Data Science
 
 ## Build
 
