@@ -6,6 +6,7 @@ numpy
 pandas
 scipy
 sklearn
+statsmodels
 
 matplotlib
 seaborn
