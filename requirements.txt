@@ -10,3 +10,6 @@ statsmodels
 
 matplotlib
 seaborn
+
+redshift_connector
+vertica-python
