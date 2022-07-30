@@ -1,6 +1,9 @@
 isort
 black
+flake8
 jupyterlab-code-formatter
+
+requests
 
 numpy
 pandas

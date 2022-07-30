@@ -1,0 +1,36 @@
+{
+  "name": "dev-container-for-python",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "notebook",
+  "remoteUser": "jovyan",
+  "workspaceFolder": "/home/jovyan/notebook",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.python-extension-pack",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "kddejong.vscode-cfn-lint",
+    "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.blackPath": "/opt/conda/bin/black",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Path": "/opt/conda/bin/flake8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "[python]": {
+      "editor.defaultFormatter": null
+    },
+    "shutdownAction": "stopCompose"
+  }
+}

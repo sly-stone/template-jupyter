@@ -1,4 +1,4 @@
-# Template Repository for Data Science
+# template-jupyter
 
 ## Build
 

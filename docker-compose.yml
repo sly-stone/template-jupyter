@@ -1,17 +1,17 @@
-version: "3"
+version: "3.8"
 services:
   notebook:
     build:
       context: .
-      dockerfile: Dockerfile
-    image: template-datascience
-    container_name: template-datascience
+      dockerfile: ./Dockerfile
+    image: jupyter:python-3.10.5
+    container_name: template
     ports:
       - "8888:8888"
     environment:
       - JUPYTER_ENABLE_LAB=yes
       - GRANT_SUDO=yes
     volumes:
-      - ./src:/home/jovyan/work
+      - ./:/home/jovyan/notebook
       - ./.jupyter:/home/jovyan/.jupyter
     command: start-notebook.sh --NotebookApp.token=''
