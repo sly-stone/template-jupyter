@@ -30,7 +30,7 @@
     "markdownCellConfig": {
         "autoClosingBrackets": true,
         "cursorBlinkRate": 530,
-        "fontFamily": null,
+        "fontFamily": "Menlo, Monaco, DejaVu Sans Mono, Consolas, 'Courier New', monospace",
         "fontSize": null,
         "lineHeight": null,
         "lineNumbers": false,
