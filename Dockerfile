@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:python-3.10.5
+FROM jupyter/scipy-notebook:python-3.11.6
 
 USER root
 RUN apt-get update
