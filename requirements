@@ -4,6 +4,7 @@ flake8
 jupyterlab-code-formatter
 
 requests
+pendulum
 
 numpy
 pandas
